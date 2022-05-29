@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #A0E7E5;
+}
+h1{
+    display: block;
+    font-family: roboto;
+    font-size: 2.5em;
+    margin-left: .5em;
+    margin-top: .5em;
+}
+.container{
+    border: 2px solid gray;
+    padding: 1em;
+    margin: 2em 1em;
+    background-color: white;
+
+}
+
+h2{
+    display: block;
+    font-family: roboto;
+    font-size: 1.5em;
+    
+    margin-top: .5em;
+}
+.container-color{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+    margin-top: .8em;
+
+}
+
+.colorbox{
+    min-width: 200px;
+    flex: 1 200px;
+    text-align: center;
+    margin: 0 1px 2px 1px;
+}
+
+.pink{
+    background-color: #FFAEBC;
+}
+.blue{
+    background-color: #A0E7E5;
+}
+.mint{
+    background-color: #B4F8C8;
+}
+.yellow{
+    background-color: #FBE7C6;
+}
+
+.colorbox p{
+    font-family: nunito;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 1em;
+}
+
+.container-fonts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+
+}
+
+.fontbox{
+    min-width: 100px;
+    flex: 1 200px;
+}
+.fontbox p{
+    margin: 1em;
+}
+.font-label{
+  text-decoration: underline; 
+  font-weight: 400; 
+  font-size: 1.2em;
+}
+
+.roboto{
+    font-family: roboto;
+}
+
+.nurito{
+    font-family: nurito;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.italic{
+    font-style: italic;
+}
+.container-text h1{
+    margin-left: 0em;
+}
+ul{
+    margin: 1em 2.5em;
+}
+
+.text-box3{
+    font-family: nurito;
+}
